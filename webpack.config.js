@@ -18,6 +18,7 @@ module.exports = ({develop}) => ({
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     clean: true,
+    assetModuleFilename: 'images/[hash][ext][query]'
   },
   ...devServer(develop),
   plugins: [
@@ -25,14 +26,14 @@ module.exports = ({develop}) => ({
           template: './src/index.html'
       }),
       new MiniCssExtractPlugin({
-          filename: './styles/main.scss'
+          filename: './styles/bundle.css'
       })
   ],
   module: {
       rules: [
           {
               test: /\.(?:ico|png|jpg|jpeg|svg)$/i,
-              type: 'asset/inline'
+              type: 'asset/resource'
           },
           {
               test: /\.html$/i,
@@ -41,13 +42,13 @@ module.exports = ({develop}) => ({
           {
               test: /\.css$/i,
               use: [
-                'style-loader', 'css-loader'
+                MiniCssExtractPlugin.loader, 'css-loader'
               ]
           },
           {
               test: /\.scss$/i,
               use: [
-                'style-loader', 'css-loader', 'sass-loader'
+                MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'
               ]
           },
           {
