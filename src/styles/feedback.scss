@@ -1,0 +1,90 @@
+.feedback {
+  width: 100%;
+  height: auto;
+  background-color: $white;
+  position: relative;
+
+  &__wrapper {
+    width: 1929px;
+    margin: 0 auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    margin: 0;
+    color: $primary-text;
+    font-size: 48px;
+    
+  }
+
+  &__container {
+    width: 80%;
+    // max-width ???
+    margin-top: 48px;
+    
+  }
+
+  &__block {
+    
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    
+
+
+  }
+
+  &__block:first-child {
+    margin-top: 0;
+  }
+
+  &__avatar {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+
+    margin-right: 36px;
+  }
+
+  &__avatar > img {
+    border-radius: 50%;
+  }
+
+  &__comment {
+    background-color: $light-grey;
+    padding: 30px;
+    border-radius: 16px;
+    position: relative;
+    max-width: 900px;    
+  }
+
+  &__comment::before {
+    content: ''; 
+    position: absolute;
+    left: -10px;
+    top: 15px; /* Положение треугольника */
+    border: 20px solid transparent; /* Прозрачные границы */
+    border-left: 20px solid $light-grey; /* Добавляем треугольник */
+    transform: rotate(-45deg);
+  }
+
+  &__comment-owner {
+    margin: 0;
+    color: $primary-text;
+    font-size: 24px;
+  }
+
+  &__comment-text {
+    margin: 0;
+    margin-top: 16px;
+    color: $secondary-text;
+    font-size: 22px;
+  }
+}

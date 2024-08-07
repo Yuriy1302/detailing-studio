@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tornado-54</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <h2 class="header__logo">Торнадо-54</h2>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item"><a href="#about" class="">О нас</a></li>
+          <li class="header__item"><a href="#gallery" class="">Галерея</a></li>
+          <li class="header__item"><a href="#feedback" class="">Отзывы</a></li>
+          <li class="header__item"><a href="#price" class="">Цены</a></li>
+          <li class="header__item"><a href="#contact" class="">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__phone">
+        <img src="/src/images/phone-icon.svg" alt="phone icon">
+        <span>+7 (923) 255 52 55</span>
+      </div>
+    </div>
+  </header>
+  
+  <section class="welcome">
+    <div class="welcome__wrapper">
+      <h1 class="welcome__title">Detailing studio</h1>
+      <h3 class="welcome__subtitle">уход за автомобилями</h3>
+    </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg" 
+      class="welcome__wave"
+      viewBox="0 0 1440 320"
+    >
+      <path fill="#ffffff" fill-opacity="1" d="M0,160L120,186.7C240,213,480,267,720,266.7C960,267,1200,213,1320,186.7L1440,160L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+    </svg>
+  </section>
+
+  <section class="about" id="about">
+    
+    <div class="about__wrapper">
+      <h2 class="about__title">Что мы делаем</h2>
+      <div class="about__block">
+        <div class="about__description mr-6">
+          <h3 class="about__subtitle">Химчистка салона автомобиля</h3>
+          <p class="about__text">
+            Предоставленный нами комплекс работ приведет салон вашего автомобиля к чистоте и свежести
+          </p>
+          <p class="about__text">
+            В процессе работы удаляем загрязнения разного рода и давности с тканевых, пластиковых, кожаных поверхностей
+          </p>
+        </div>
+        <div class="about__image">
+          <img src="/src/images/about_01.png" alt="">
+        </div>
+      </div>
+
+      <div class="about__block">
+        <div class="about__image mr-6">
+          <img src="/src/images/about_02.png" alt="">
+        </div>
+        <div class="about__description about__description_right">
+          <h3 class="about__subtitle">Полировка кузова и оптики</h3>
+          <p class="about__text">
+            Комплекс работ, позволяющий вернуть яркость цвета, удалить мелкие царапины, «паутинку», придать блеск покрытию; а с оптики убрать помутнение, восстановить прозрачность
+          </p>
+          <p class="about__text">
+            Ваш автомобиль засверкает как новый
+          </p>
+        </div>
+      </div>
+      
+      <div class="about__block">
+        <div class="about__description mr-6">
+          <h3 class="about__subtitle">Покрытие защитными средствами</h3>
+          <p class="about__text">
+            Обрабатываем кузов защитными средствами, добавляющими глубину цвета и блеска, защищающими от дождя, грязи, выгорания, повышающими прочность покрытия
+          </p>
+          <p class="about__text">
+            Стекла обрабатываем долгосрочными водоотталкивающими средствами, обеспечивающими лучшую видимость в дождливую и снежную погоду
+          </p>
+        </div>
+        <div class="about__image">
+          <img src="/src/images/about_03.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="gallery__wrapper">
+      <h2 class="gallery__title">Галерея</h2>
+      <div class="gallery__container">
+        
+        <div class="gallery__card">
+          <div class="gallery__card-img">
+            <img src="/src/images/gallery_01.jpg" alt="gallery photo 01">
+          </div>
+        </div>
+
+        <div class="gallery__card">
+          <div class="gallery__card-img">
+            <img src="/src/images/gallery_02.jpg" alt="gallery photo 02">
+          </div>
+        </div>
+
+        <div class="gallery__card">
+          <div class="gallery__card-img">
+            <img src="/src/images/gallery_03.jpg" alt="gallery photo 03">
+          </div>
+        </div>
+
+        <div class="gallery__card">
+          <div class="gallery__card-img">
+            <img src="/src/images/gallery_04.jpg" alt="gallery photo 04">
+          </div>
+        </div>
+
+        <div class="gallery__card">
+          <div class="gallery__card-img">
+            <img src="/src/images/gallery_05.jpg" alt="gallery photo 05">
+          </div>
+        </div>
+
+        <div class="gallery__card">
+          <div class="gallery__card-img">
+            <img src="/src/images/gallery_06.jpg" alt="gallery photo 06">
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section class="feedback" id="feedback">
+    <div class="feedback__wrapper">
+      <h2 class="feedback__title">Отзывы</h2>
+
+      <div class="feedback__container">
+        <div class="feedback__block">
+          <div class="feedback__avatar">
+            <img src="/src/images/avatar_01.png" alt="avatar">
+          </div>
+          <div class="feedback__comment">
+            <h3 class="feedback__comment-owner">Алина Л.</h3>
+            <p class="feedback__comment-text">
+              Довольна качеством работ. Машина была, мягко говоря, очень грязной внутри. На выходе - приятный запах, кожа в салоне нежная на ощупь, запах как в машине из салона. Сделали быстро. Рекомендую &rbbrk;&rbbrk;&rbbrk;
+            </p>
+          </div>
+        </div>
+      
+        <div class="feedback__block">
+          <div class="feedback__avatar">
+            <img src="/src/images/avatar_01.png" alt="avatar">
+          </div>
+          <div class="feedback__comment">
+            <h3 class="feedback__comment-owner">Никита Р.</h3>
+            <p class="feedback__comment-text">
+              Сдавал ребятам автомобиль на комплексную химчистку, полировку плюс защитное покрытие. Все сделали отлично, машина как новая.
+            </p>
+          </div>
+        </div>
+
+        <div class="feedback__block">
+          <div class="feedback__avatar">
+            <img src="/src/images/avatar_01.png" alt="avatar">
+          </div>
+          <div class="feedback__comment">
+            <h3 class="feedback__comment-owner">Иван М.</h3>
+            <p class="feedback__comment-text">
+              Сделали химчистку авто. Все понравилось. Чисто, аккуратно, быстро. Очень приятное впечатление от работы и общения с мастером.
+            </p>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tabs -->
+  <section class="price" id="price">
+    <div class="price__wrapper">
+      <h2 class="price__title">Цены</h2>
+      <div class="price__tabs">
+        <!-- перенести класс в ul из div выше -->
+        <ul>
+          <li class="price__tab is-active" data-tab="mini">
+            <svg width="126" height="56" viewBox="0 0 126 56" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6976 47.0972C10.5702 41.6227 11.8439 30.6736 24.0714 30.6736C36.2989 30.6736 37.8274 40.6042 37.8274 47.0972H94.3797C94.2523 42.0046 95.1439 31.4375 106.607 30.6736C118.07 29.9097 120.745 38.6944 121.127 44.8056C122.274 44.169 124.643 42.5903 124.948 41.3681C125.331 39.8403 125.97 34.0084 124.948 31.8195C122.274 26.0903 117.664 18.8911 113.485 14.25C110.046 10.4306 103.55 3.9375 100.493 2.79168C95.6561 0.978505 87.1196 0.5 78.7131 0.5C70.3072 0.5 66.8676 0.5 61.1361 1.2639C56.9526 1.82148 49.2907 4.7014 44.7054 7.37501C40.12 10.0486 33.0678 14.8061 29.8031 18.0695C28.9952 18.877 27.2309 19.0016 24.9146 19.1652C21.7528 19.3885 17.5626 19.6845 13.3723 21.8889C6.11224 25.7083 2.29114 30.2917 1.14481 34.1111C-0.00151935 37.9306 0.380591 44.4236 2.29114 45.5695C3.81958 46.4861 8.53229 46.9699 10.6976 47.0972ZM34.3884 18.8333L76.0384 17.3055V3.55555C76.0384 3.55555 67.2498 3.17369 62.6645 3.55559C58.0792 3.9375 52.0419 6.45832 47.7622 8.90277C43.4826 11.3472 37.0632 16.5417 34.3884 18.8333ZM81.3879 3.55559L82.9164 17.3055H101.64C101.64 17.3055 102.022 16.1597 101.64 14.25C101.258 12.3403 99.3471 8.90278 93.9976 6.22917C89.6046 4.03366 85.6412 3.81277 82.9535 3.66299C82.3682 3.63037 81.8435 3.60112 81.3879 3.55559Z" fill="currentColor"/>
+              <path d="M35.9168 44.0417C35.9168 50.3699 30.7845 55.5 24.4535 55.5C18.1225 55.5 12.9902 50.3699 12.9902 44.0417C12.9902 37.7134 18.1225 32.5833 24.4535 32.5833C30.7845 32.5833 35.9168 37.7134 35.9168 44.0417Z" fill="currentColor"/>
+              <path d="M119.217 44.0417C119.217 50.3699 114.085 55.5 107.754 55.5C101.423 55.5 96.2902 50.3699 96.2902 44.0417C96.2902 37.7134 101.423 32.5833 107.754 32.5833C114.085 32.5833 119.217 37.7134 119.217 44.0417Z" fill="currentColor"/>
+            </svg>
+            <span>Мини</span>
+          </li>
+
+          <li class="price__tab" data-tab="sedan">
+            <svg width="176" height="54" viewBox="0 0 176 54" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M41.8913 41.6571C41.8913 48.4739 36.4005 54 29.6272 54C22.8539 54 17.3631 48.4739 17.3631 41.6571C17.3631 34.8404 22.8539 29.3143 29.6272 29.3143C36.4005 29.3143 41.8913 34.8404 41.8913 41.6571Z" fill="currentColor"/>
+              <path d="M151.131 41.6571C151.131 48.4739 145.64 54 138.867 54C132.094 54 126.603 48.4739 126.603 41.6571C126.603 34.8404 132.094 29.3143 138.867 29.3143C145.64 29.3143 151.131 34.8404 151.131 41.6571Z" fill="currentColor"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M123.537 46.6714H44.2036C44.2036 46.097 44.2302 45.4692 44.2586 44.7979C44.3827 41.8626 44.5421 38.0956 42.6706 34.3286C40.3711 29.7 35.3888 26.6143 29.2567 26.6143C23.1247 26.6143 19.2922 28.5429 16.6094 33.1714C14.2037 37.3221 14.2634 42.4032 14.3014 45.6334C14.3058 46.0054 14.3099 46.3528 14.3099 46.6714C10.2219 46.4143 1.81585 45.6686 0.896043 44.7429C-0.253716 43.5857 1.2793 28.1571 3.19556 25.8429C6.38933 21.9857 16.2261 20.0571 29.2567 18.9C32.7872 18.5865 35.8956 18.3296 38.5973 18.1063C45.8674 17.5055 50.1922 17.1481 51.8687 16.5857C53.575 16.0133 57.8135 13.3171 61.9224 10.7034C63.3509 9.79475 64.7637 8.89603 66.049 8.1C71.0313 5.01429 75.2471 2.7 81.3791 1.54286C87.5112 0.385714 97.4757 0 104.758 0C112.039 0 119.704 0.771429 124.303 1.54286C128.902 2.31429 135.801 5.4 140.017 7.32857C141.502 8.0081 143.416 9.02284 145.389 10.0691C149.016 11.9921 152.843 14.0216 154.58 14.2714C155.875 14.4576 158.421 14.6438 160.967 14.83C163.694 15.0296 166.422 15.2291 167.611 15.4286C169.91 16.2 171.06 20.8286 171.443 22.3714C171.635 23.1428 171.923 24.2034 172.21 25.264C172.497 26.3248 172.785 27.3856 172.976 28.1571C173.223 29.1482 173.802 29.6954 174.275 30.1429C174.539 30.3921 174.77 30.6104 174.893 30.8571C175.276 31.6286 176.043 37.8 174.893 39.3429C173.743 40.8857 167.994 42.8143 164.928 43.5857C162.475 44.2029 156.497 45.5143 153.431 45.5143C153.431 45.2966 153.431 45.0713 153.432 44.8391C153.444 41.7419 153.46 37.4348 151.514 33.9429C149.041 29.504 143.883 26.2286 138.484 26.2286C133.392 26.2286 128.326 29.1833 125.836 33.5571C123.53 37.6087 123.534 42.9229 123.537 46.3384C123.537 46.4516 123.537 46.5626 123.537 46.6714ZM101.308 2.69998L100.925 16.2L137.717 14.6571C136.312 13.1143 132.812 9.56571 130.052 7.71428C126.603 5.4 123.1 4.2982 118.171 3.47144C113.572 2.70002 105.269 2.5714 101.308 2.69998ZM59.5337 17.7429L94.0265 16.2L97.4757 2.7C94.2819 2.57143 86.5914 3.31715 82.9121 4.24287C78.3131 5.40001 71.7978 8.87143 68.7318 10.8C66.279 12.3429 61.7055 15.8143 59.5337 17.7429Z" fill="currentColor"/>
+            </svg>
+            <span>Седан</span>
+          </li>
+
+          <li class="price__tab" data-tab="wagon">
+            <svg width="185" height="58" viewBox="0 0 185 58" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M47.736 49.6515H130.959C130.959 37.7879 134.426 28.5606 147.43 28.1212C160.434 27.6818 164.335 37.3485 164.335 48.3333C169.681 47.7475 180.806 45.8727 182.54 43.0606C184.707 39.5455 184.707 36.0303 184.273 34.2727C184.051 33.3688 183.369 32.9297 182.76 32.5371C182.184 32.1664 181.673 31.8372 181.673 31.197C181.673 31.0106 181.681 30.7013 181.693 30.3013C181.761 27.8721 181.922 22.0985 180.806 20.2121C179.506 18.0152 163.034 3.95455 156.533 2.19697C150.031 0.439394 128.792 0 115.355 0C101.918 0 91.9482 0.878788 88.0471 1.31818C84.146 1.75758 75.477 4.83333 69.4086 7.90909C66.6756 9.29437 63.1612 11.4589 59.9609 13.4301C56.0554 15.8355 52.6174 17.953 51.6371 18.0152C50.0433 18.1161 48.3809 18.1939 46.6445 18.2751C40.8251 18.5474 34.1752 18.8585 26.4969 20.2121C16.5275 21.9697 6.55804 25.9242 3.09045 29.8788C-0.377131 33.8333 0.489739 44.3788 0.923191 46.5758C1.26995 48.3333 9.7367 49.3586 13.9267 49.6515C13.9267 37.7879 17.3944 28.5606 30.3979 28.1212C43.4015 27.6818 47.736 37.7879 47.736 49.6515ZM99.3169 18.0152L59.4392 18.894C61.6065 17.2829 66.8946 13.5334 70.709 11.4243C75.477 8.78793 80.6784 6.15158 86.7467 4.8334C91.6014 3.77885 100.039 3.80815 103.651 3.95461L99.3169 18.0152ZM137.461 17.1364L106.252 18.0152L107.986 3.95461H130.092L137.461 17.1364ZM134.86 3.95461L141.795 16.697H162.167C161.734 14.9394 158.7 11.4243 155.232 9.22733C151.123 6.62367 147.43 4.83337 143.529 4.39399C140.408 4.04249 136.16 3.95461 134.86 3.95461Z" fill="currentColor"/>
+              <path d="M160.867 44.8182C160.867 52.0983 155.045 58 147.864 58C140.682 58 134.86 52.0983 134.86 44.8182C134.86 37.5381 140.682 31.6364 147.864 31.6364C155.045 31.6364 160.867 37.5381 160.867 44.8182Z" fill="currentColor"/>
+              <path d="M43.835 44.8182C43.835 52.0983 38.0131 58 30.8314 58C23.6497 58 17.8278 52.0983 17.8278 44.8182C17.8278 37.5381 23.6497 31.6364 30.8314 31.6364C38.0131 31.6364 43.835 37.5381 43.835 44.8182Z" fill="currentColor"/>
+            </svg>
+            <span>Универсал</span>
+          </li>
+
+          <li class="price__tab" data-tab="cuv">
+            <svg width="171" height="62" viewBox="0 0 171 62" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M46.0228 50.5185H121.384C121.384 40.9506 127.122 31 138.216 31C149.31 31 156.196 39.037 156.196 49.3704C160.021 48.8601 168.36 47.3037 169.585 45.1605C171.115 42.4815 170.35 34.0617 169.967 31.7654C169.734 30.3645 168.911 29.3789 168.227 28.5591C167.805 28.0535 167.435 27.6109 167.289 27.1728C167.289 26.9029 167.353 26.3792 167.435 25.7011C167.702 23.4948 168.167 19.6542 167.289 17.6049C165.377 14.9259 162.316 12.2469 156.578 8.41975C150.84 4.59259 145.484 2.67901 141.276 1.91358C137.068 1.14815 125.592 0 108.76 0C92.6056 0 87.0222 0.705056 83.8934 1.10015C83.7622 1.11672 83.6353 1.13274 83.5121 1.14815C80.4518 1.53086 76.2438 3.06173 68.2103 8.03704C65.6395 9.62919 63.3038 11.1822 61.2157 12.5705C56.7786 15.5206 53.4594 17.7274 51.3784 17.9877C50.4739 18.1008 49.135 18.1805 47.3617 18.286C43.135 18.5375 36.4405 18.9359 27.2781 20.284C14.2716 22.1975 5.8556 25.642 3.94289 27.5556C2.84587 28.6531 2.71968 31.1861 2.61584 33.2707C2.57038 34.1833 2.5292 35.0099 2.41272 35.5926C1.26509 37.1235 0.499995 38.6543 0.5 42.0988C0.500005 45.5432 1.93987 48.5146 2.79527 49.3704C3.56035 50.1358 8.53342 50.5185 10.8287 50.5185C10.8287 41.3333 16.5669 31 28.4257 31C40.2846 31 46.0228 40.9506 46.0228 50.5185ZM99.1964 3.06173L94.2233 19.1358C87.4836 19.1358 77.2278 19.291 69.7779 19.4037L69.7748 19.4038C67.973 19.431 66.3353 19.4558 64.9514 19.4753C63.0729 19.5018 60.942 19.5185 61.3246 18.3704C61.6387 17.4275 66.8815 13.6899 69.3596 11.9232C69.8989 11.5387 70.3075 11.2474 70.5056 11.0988C73.5659 8.80248 78.6091 5.9725 82.747 4.59261C87.3376 3.06173 95.2435 3.06173 99.1964 3.06173ZM133.243 17.2222L101.874 19.1358L104.17 3.06173L125.592 3.44444L133.243 17.2222ZM130.183 3.82716L136.686 16.4568C140.129 16.0741 144.719 14.9259 145.484 12.6296C146.249 10.3333 143.954 8.03704 140.129 6.12346C136.303 4.20988 132.478 3.82716 130.183 3.82716Z" fill="currentColor"/>
+              <path d="M42.1973 48.2222C42.1973 55.8315 36.0316 62 28.4257 62C20.8199 62 14.6541 55.8315 14.6541 48.2222C14.6541 40.613 20.8199 34.4444 28.4257 34.4444C36.0316 34.4444 42.1973 40.613 42.1973 48.2222Z" fill="currentColor"/>
+              <path d="M152.37 48.2222C152.37 55.8315 146.204 62 138.599 62C130.993 62 124.827 55.8315 124.827 48.2222C124.827 40.613 130.993 34.4444 138.599 34.4444C146.204 34.4444 152.37 40.613 152.37 48.2222Z" fill="currentColor"/>
+            </svg>
+            <span>Кроссовер</span>
+          </li>
+
+          <li class="price__tab" data-tab="suv">
+            <svg width="171" height="64" viewBox="0 0 171 64" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path d="M42.2584 49.5712C42.2584 57.54 35.7261 64 27.6681 64C19.6101 64 13.0778 57.54 13.0778 49.5712C13.0778 41.6024 19.6101 35.1424 27.6681 35.1424C35.7261 35.1424 42.2584 41.6024 42.2584 49.5712Z" fill="currentColor"/>
+              <path d="M149.766 49.5712C149.766 57.54 143.234 64 135.176 64C127.118 64 120.586 57.54 120.586 49.5712C120.586 41.6024 127.118 35.1424 135.176 35.1424C143.234 35.1424 149.766 41.6024 149.766 49.5712Z" fill="currentColor"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M45.7142 52.2291H116.746C116.746 41.9771 123.657 31.7251 135.176 31.7251C146.695 31.7251 153.222 41.2177 153.222 51.4697C156.293 51.4698 165.662 50.7863 167.812 48.0524C170.5 44.635 170.5 41.2177 170.5 39.6989C170.5 39.2017 170.207 38.9215 169.878 38.6057C169.452 38.1981 168.964 37.7311 168.964 36.6612L168.964 23.7512C168.964 22.4267 168.811 20.4858 168.196 19.5745C167.428 18.4354 163.589 14.6383 158.981 10.4616C154.374 6.28481 150.15 2.48776 148.23 2.10805C146.311 1.72835 131.336 0.589225 112.523 0.20952C93.7087 -0.170185 79.3337 -0.0986888 76.8146 0.968934C74.1269 2.10802 68.7515 4.76599 63.3761 8.56304C62.584 9.12256 61.7753 9.69857 60.9621 10.2777C56.2569 13.6287 51.4048 17.0844 48.7858 18.0557C47.0264 18.7082 44.3853 18.8623 40.5017 19.089C37.605 19.2581 34.017 19.4675 29.588 19.9542C19.2212 21.0933 9.62229 23.7513 7.70251 24.8904C6.58038 25.5562 5.85177 27.2599 5.13332 28.9397C4.62262 30.1339 4.11706 31.316 3.47895 32.1048C2.90302 32.8167 2.43507 33.3151 2.05487 33.72C1.42119 34.3949 1.03124 34.8102 0.791261 35.5221C0.407305 36.6613 0.398551 41.5281 0.791245 44.6351C1.17518 47.6727 2.71094 51.4698 3.47885 51.8495C4.09318 52.1532 5.95478 52.229 9.23829 52.2291C9.23829 42.3568 15.2672 31.7251 27.6681 31.7251C40.069 31.7251 45.714 41.9771 45.7142 52.2291ZM91.4049 18.8151L55.6969 20.3339C57.3607 18.5619 61.6098 14.3345 65.2958 11.6007C69.9033 8.18332 74.5108 4.76597 78.7343 4.00656C82.1131 3.39903 91.6608 3.24715 96.0123 3.24715L91.4049 18.8151ZM130.184 17.676L99.084 18.4354L101.004 3.24715L123.273 4.00656L130.184 17.676ZM134.463 17.2962H155.142C152.198 13.4992 145.082 5.7532 143.239 5.14567C141.396 4.53815 131.72 4.13313 127.113 4.00656L134.463 17.2962Z" fill="currentColor"/>
+            </svg>
+            <span>Джип</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="price__contents">
+        <div class="price__content is-active" data-content="mini">
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Комплексная химчистка салона</h3>
+              <p>Включает в себя химчистку передней и задней панелей, дверей, сидений, пола (с выносом сидений), багажника</p>
+            </div>
+            <div class="price__content-count">
+              от 6&nbsp;500
+            </div>
+          </div>
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Полировка кузова</h3>
+              <p>Включает в себя полировку кузова с нанесение защитного полимера, полировку передней и задней оптики</p>
+            </div>
+            <div class="price__content-count">
+              от 12&nbsp;000
+            </div>
+          </div>
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Полировка оптики</h3>
+              <p>Включает в себя полировку передних фар и задних фонарей</p>
+            </div>
+            <div class="price__content-count">
+              от 1&nbsp;600
+            </div>
+          </div>
+        </div>
+        
+        <div class="price__content" data-content="sedan">
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Комплексная химчистка салона</h3>
+              <p>Включает в себя химчистку передней и задней панелей, дверей, сидений, пола (с выносом сидений), багажника</p>
+            </div>
+            <div class="price__content-count">
+              от 6&nbsp;500
+            </div>
+          </div>
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Полировка кузова</h3>
+              <p>Включает в себя полировку кузова с нанесение защитного полимера, полировку передней и задней оптики</p>
+            </div>
+            <div class="price__content-count">
+              от 12&nbsp;000
+            </div>
+          </div>
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Полировка оптики</h3>
+              <p>Включает в себя полировку передних фар и задних фонарей</p>
+            </div>
+            <div class="price__content-count">
+              от 1&nbsp;600
+            </div>
+          </div>
+        </div>
+        
+        <div class="price__content" data-content="wagon">
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Комплексная химчистка салона</h3>
+              <p>Включает в себя химчистку передней и задней панелей, дверей, сидений, пола (с выносом сидений), багажника</p>
+            </div>
+            <div class="price__content-count">
+              от 7&nbsp;000
+            </div>
+          </div>
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Полировка кузова</h3>
+              <p>Включает в себя полировку кузова с нанесение защитного полимера, полировку передней и задней оптики</p>
+            </div>
+            <div class="price__content-count">
+              от 14&nbsp;000
+            </div>
+          </div>
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Полировка оптики</h3>
+              <p>Включает в себя полировку передних фар и задних фонарей</p>
+            </div>
+            <div class="price__content-count">
+              от 1&nbsp;600
+            </div>
+          </div>
+        </div>
+        
+        <div class="price__content" data-content="cuv">
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Комплексная химчистка салона</h3>
+              <p>Включает в себя химчистку передней и задней панелей, дверей, сидений, пола (с выносом сидений), багажника</p>
+            </div>
+            <div class="price__content-count">
+              от 7&nbsp;500
+            </div>
+          </div>
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Полировка кузова</h3>
+              <p>Включает в себя полировку кузова с нанесение защитного полимера, полировку передней и задней оптики</p>
+            </div>
+            <div class="price__content-count">
+              от 14&nbsp;000
+            </div>
+          </div>
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Полировка оптики</h3>
+              <p>Включает в себя полировку передних фар и задних фонарей</p>
+            </div>
+            <div class="price__content-count">
+              от 1&nbsp;600
+            </div>
+          </div>
+        </div>
+        
+        <div class="price__content" data-content="suv">
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Комплексная химчистка салона</h3>
+              <p>Включает в себя химчистку передней и задней панелей, дверей, сидений, пола (с выносом сидений), багажника</p>
+            </div>
+            <div class="price__content-count">
+              от 7&nbsp;500
+            </div>
+          </div>
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Полировка кузова</h3>
+              <p>Включает в себя полировку кузова с нанесение защитного полимера, полировку передней и задней оптики</p>
+            </div>
+            <div class="price__content-count">
+              от 15&nbsp;000
+            </div>
+          </div>
+          <div class="price__content-item">
+            <div class="price__content-description">
+              <h3>Полировка оптики</h3>
+              <p>Включает в себя полировку передних фар и задних фонарей</p>
+            </div>
+            <div class="price__content-count">
+              от1&nbsp;600
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact__wrapper">
+      <h2 class="contact__title">Контакты</h2>
+      <div class="contact__container">
+        <div class="contact__info">
+          <h2>Торнадо-54</h2>
+          <p class="contact__info-phone">+7 (923) 255 52 55</p>
+          <p class="contact__info-address">Новосибирск, Семьи Шамшиных, 4</p>
+          <div class="contact__socials">
+            <a href="https://vk.com/tornado54" target="_blank">
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="30" height="30" rx="15" fill="#1C2A66"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.0488 16.0761C20.5132 16.5295 21.0034 16.9561 21.4199 17.4552C21.6039 17.677 21.7781 17.9059 21.9113 18.1633C22.1001 18.5292 21.9291 18.9319 21.601 18.9537L19.5615 18.9528C19.0355 18.9965 18.6158 18.7847 18.263 18.425C17.9806 18.1374 17.7191 17.8313 17.4476 17.534C17.3363 17.4125 17.2198 17.2981 17.0806 17.2077C16.8021 17.027 16.5605 17.0823 16.4014 17.3727C16.2393 17.6681 16.2026 17.9951 16.1867 18.3243C16.1648 18.8045 16.0196 18.9308 15.5372 18.9528C14.5062 19.0014 13.5278 18.8454 12.6188 18.3253C11.8174 17.8668 11.196 17.2195 10.6551 16.4868C9.60201 15.0599 8.79553 13.4919 8.0707 11.8801C7.90755 11.5169 8.02687 11.322 8.42755 11.3151C9.09291 11.3022 9.75817 11.3031 10.4243 11.3142C10.6947 11.3181 10.8737 11.4733 10.9782 11.7287C11.3381 12.6139 11.7786 13.456 12.3315 14.2366C12.4787 14.4444 12.6289 14.6522 12.8427 14.7985C13.0792 14.9604 13.2593 14.9067 13.3705 14.6433C13.4411 14.4762 13.4721 14.2963 13.488 14.1173C13.5407 13.5017 13.5476 12.8872 13.4552 12.2738C13.3984 11.891 13.1828 11.6431 12.8008 11.5707C12.6058 11.5337 12.6349 11.4612 12.7292 11.3499C12.8932 11.158 13.0474 11.0386 13.3547 11.0386H15.6597C16.0226 11.1102 16.1032 11.2732 16.1528 11.6383L16.1548 14.1987C16.1509 14.34 16.2254 14.7595 16.48 14.8531C16.6838 14.9197 16.8181 14.7566 16.9404 14.6274C17.4922 14.0417 17.8861 13.3495 18.238 12.6327C18.3942 12.3175 18.5284 11.9902 18.6586 11.6632C18.755 11.4205 18.9063 11.3011 19.1796 11.3064L21.398 11.3083C21.4638 11.3083 21.5304 11.3093 21.5941 11.3202C21.9679 11.3839 22.0703 11.5447 21.9549 11.9098C21.773 12.4825 21.419 12.9598 21.0729 13.4392C20.703 13.9511 20.3073 14.4455 19.9404 14.9605C19.6034 15.4307 19.6301 15.6677 20.0488 16.0761Z" fill="white"/>
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/tornado_54" target="_blank">
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="30" height="30" rx="15" fill="#1C2A66"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M9.5 11.7805C9.5 10.3676 10.6454 9.22217 12.0583 9.22217H17.9419C19.3548 9.22217 20.5001 10.3675 20.5001 11.7804V18.2196C20.5001 19.6325 19.3548 20.7779 17.9419 20.7779H12.0583C10.6454 20.7779 9.5 19.6325 9.5 18.2196V11.7805ZM12.3556 14.9997C12.3556 13.527 13.5496 12.333 15.0223 12.333C16.4951 12.333 17.689 13.527 17.689 14.9997V15.1571C17.689 16.6298 16.4951 17.8238 15.0223 17.8238C13.5496 17.8238 12.3556 16.6298 12.3556 15.1571V14.9997ZM18.1219 10.8889C17.723 10.8889 17.3996 11.2123 17.3996 11.6112C17.3996 12.0101 17.723 12.3334 18.1219 12.3334C18.5207 12.3334 18.8441 12.0101 18.8441 11.6112C18.8441 11.2123 18.5207 10.8889 18.1219 10.8889Z" fill="white"/>
+                <path d="M13.3689 15C13.3689 14.0992 14.0992 13.3689 15 13.3689C15.9009 13.3689 16.6312 14.0992 16.6312 15C16.6312 15.9008 15.9009 16.6311 15 16.6311C14.0992 16.6311 13.3689 15.9008 13.3689 15Z" fill="white"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact__map">
+          <iframe
+            id="map_57975574"
+            frameborder="0"
+            width="800px"
+            height="400px"
+            sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <svg xmlns="http://www.w3.org/2000/svg" class="footer__wave" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,0L120,0C240,0,480,0,720,21.3C960,43,1200,85,1320,106.7L1440,128L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+    <div class="footer__wrapper">  
+      <span class="footer__text">Торнадо-54 &copy; 2024. Все права защищены.</span>
+    </div>
+  </footer>
+
+  <div id="back-to-top" class="back-to-top" title="Back to top">▲</div>
+
+  <script type="text/javascript">
+    (function(e,t){var r=document.getElementById(e);r.contentWindow.document.open(),r.contentWindow.document.write(atob(t)),r.contentWindow.document.close()})("map_57975574", "PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUpe3ZhciB0PUpTT04ucGFyc2UoZSkscj10Lm9yZGVyZWRHZW9tZXRyaWVzLG49dC5tYXBQb3NpdGlvbixhPXQuaXNXaGVlbFpvb21FbmFibGVkO2Z1bmN0aW9uIG8oZSl7cmV0dXJuIGRlY29kZVVSSUNvbXBvbmVudChhdG9iKGUpLnNwbGl0KCIiKS5tYXAoZnVuY3Rpb24oZSl7cmV0dXJuIiUiKygiMDAiK2UuY2hhckNvZGVBdCgwKS50b1N0cmluZygxNikpLnNsaWNlKC0yKX0pLmpvaW4oIiIpKX1ERy50aGVuKGZ1bmN0aW9uKCl7dmFyIGU9REcubWFwKCJtYXAiLHtjZW50ZXI6W24ubGF0LG4ubG9uXSx6b29tOm4uem9vbSxzY3JvbGxXaGVlbFpvb206YSx6b29tQ29udHJvbDohYX0pO0RHLmdlb0pTT04ocix7c3R5bGU6ZnVuY3Rpb24oZSl7dmFyIHQscixuLGEsbztyZXR1cm57ZmlsbENvbG9yOm51bGw9PT0odD1lKXx8dm9pZCAwPT09dD92b2lkIDA6dC5wcm9wZXJ0aWVzLmZpbGxDb2xvcixmaWxsT3BhY2l0eTpudWxsPT09KHI9ZSl8fHZvaWQgMD09PXI/dm9pZCAwOnIucHJvcGVydGllcy5maWxsT3BhY2l0eSxjb2xvcjpudWxsPT09KG49ZSl8fHZvaWQgMD09PW4/dm9pZCAwOm4ucHJvcGVydGllcy5zdHJva2VDb2xvcix3ZWlnaHQ6bnVsbD09PShhPWUpfHx2b2lkIDA9PT1hP3ZvaWQgMDphLnByb3BlcnRpZXMuc3Ryb2tlV2lkdGgsb3BhY2l0eTpudWxsPT09KG89ZSl8fHZvaWQgMD09PW8/dm9pZCAwOm8ucHJvcGVydGllcy5zdHJva2VPcGFjaXR5fX0scG9pbnRUb0xheWVyOmZ1bmN0aW9uKGUsdCl7cmV0dXJuInJhZGl1cyJpbiBlLnByb3BlcnRpZXM/REcuY2lyY2xlKHQsZS5wcm9wZXJ0aWVzLnJhZGl1cyk6REcubWFya2VyKHQse2ljb246ZnVuY3Rpb24oZSl7cmV0dXJuIERHLmRpdkljb24oe2h0bWw6IjxkaXYgY2xhc3M9J2J1bGxldC1tYXJrZXInIHN0eWxlPSdib3JkZXItY29sb3I6ICIrZSsiOyc+PC9kaXY+IixjbGFzc05hbWU6Im92ZXJyaWRlLWRlZmF1bHQiLGljb25TaXplOlsyMCwyMF0saWNvbkFuY2hvcjpbMTAsMTBdfSl9KGUucHJvcGVydGllcy5jb2xvcil9KX0sb25FYWNoRmVhdHVyZTpmdW5jdGlvbihlLHQpe2UucHJvcGVydGllcy5kZXNjcmlwdGlvbiYmdC5iaW5kUG9wdXAobyhlLnByb3BlcnRpZXMuZGVzY3JpcHRpb24pLHtjbG9zZUJ1dHRvbjohMCxjbG9zZU9uRXNjYXBlS2V5OiEwfSksZS5wcm9wZXJ0aWVzLnRpdGxlJiZ0LmJpbmRUb29sdGlwKG8oZS5wcm9wZXJ0aWVzLnRpdGxlKSx7cGVybWFuZW50OiEwLG9wYWNpdHk6MSxjbGFzc05hbWU6InBlcm1hbmVudC10b29sdGlwIn0pfX0pLmFkZFRvKGUpfSl9KSgneyJvcmRlcmVkR2VvbWV0cmllcyI6W3sidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiIzFjMmE2NiIsInRpdGxlIjoiMEtMUXZ0R0EwTDNRc05DMDBMNHROVFE9IiwiZGVzY3JpcHRpb24iOiIiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6WzgyLjkzNTkyNSw1NS4wMjY1NzddfSwiaWQiOjE3ODB9XSwibWFwUG9zaXRpb24iOnsibGF0Ijo1NS4wMjY1OTU0MDE2MTkzMSwibG9uIjo4Mi45MzU3OTEwMTU2MjUwMSwiem9vbSI6MTZ9LCJpc1doZWVsWm9vbUVuYWJsZWQiOnRydWV9Jyk8L3NjcmlwdD48c2NyaXB0IGFzeW5jPSIiIHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbS9ndGFnL2pzP2lkPVVBLTE1ODg2NjE2OC0xIj48L3NjcmlwdD48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCI+KGZ1bmN0aW9uKGUpe2Z1bmN0aW9uIHQoKXtkYXRhTGF5ZXIucHVzaChhcmd1bWVudHMpfXdpbmRvdy5kYXRhTGF5ZXI9d2luZG93LmRhdGFMYXllcnx8W10sdCgianMiLG5ldyBEYXRlKSx0KCJjb25maWciLGUpLHdpbmRvdy5ndGFnPXR9KSgnVUEtMTU4ODY2MTY4LTEnKTwvc2NyaXB0PjwvYm9keT4=")
+  </script>
+
+</body>
+</html>

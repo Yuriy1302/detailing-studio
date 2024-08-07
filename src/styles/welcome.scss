@@ -1,0 +1,49 @@
+.welcome {
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-image: linear-gradient(0deg, $dark-rgb-20, $dark-rgb-60), url('/src/images/first-photo.png');
+  background-position: center center;
+  background-size: cover;
+
+  background-attachment: fixed; // Фиксированный фон
+
+  position: relative;
+  overflow: hidden;
+  
+}
+
+// Отключение фиксированного фона для мобильных версий
+/* @media (max-width: 767px) {
+  .fix-bg {
+      background-attachment: scroll;
+      height: 320px;
+  }
+} */
+
+.welcome__wrapper {
+  width: 1920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome__title {
+  font-size: 120px;
+  font-weight: 400;
+  color: $white;
+  margin: 0;
+  margin-top: 200px;
+}
+
+.welcome__subtitle {
+  font-size: 48px;
+  font-weight: 200;
+  color: $white;
+  margin: 0;
+  margin-top: 12px;
+}
+
+.welcome__wave {
+  position: absolute;
+  bottom: -75px;
+}
