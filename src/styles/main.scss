@@ -12,6 +12,14 @@ body {
   font-family: $primary-font-family;
 }
 
+.section {
+  width: 100%;
+  height: auto;
+  position: relative;
+
+  padding: 0 40px;
+}
+
 .ml-6 {
   margin-left: 60px;
 }

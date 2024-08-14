@@ -1,14 +1,18 @@
 .contact {
-  width: 100%;
-  height: auto;
+  // width: 100%;
+  // height: auto;
   background-color: $white;
-  position: relative;
+  // position: relative;
 
   &__wrapper {
-    width: 1920px;
+    width: 100%;
+    max-width: 1920px;
     margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 50px;
+
+    padding: 112px 0;
+    
+    // padding-top: 100px;
+    // padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,21 +21,23 @@
   &__title {
     margin: 0;
     color: $primary-text;
-    font-size: 48px;
+    font-size: $section-title-size;
   }
 
   &__container {
-    width: 1920px;
-    margin: 0 auto;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    // width: 1920px;
+    width: 100%;
+    // margin: 0 auto;
+    margin-top: 100px;    
+    // padding-top: 100px;
+    // padding-bottom: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
 
   &__info {
-    width: 50%;
+    width: 45%;
 
     h2 {
       color: $primary-text;
@@ -90,7 +96,7 @@
   }
 
   &__map {
-    width: 50%;
+    width: 45%;
 
     img {
       width: 100%;

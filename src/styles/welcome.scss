@@ -1,7 +1,7 @@
 .welcome {
   width: 100%;
   height: calc(100vh - 120px);
-  background-image: linear-gradient(0deg, $dark-rgb-20, $dark-rgb-60), url('/src/images/first-photo.png');
+  background-image: linear-gradient(0deg, $dark-rgb-20, $dark-rgb-60), url('/src/images/first-photo.jpg');
   background-position: center center;
   background-size: cover;
 
@@ -21,7 +21,8 @@
 } */
 
 .welcome__wrapper {
-  width: 1920px;
+  width: 100%;
+  max-width: 1920px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
